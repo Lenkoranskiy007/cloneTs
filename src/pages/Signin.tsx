@@ -80,7 +80,7 @@ export const useStylesSignIn = makeStyles((theme) => ({
         marginBottom:  45,
         marginTop: 20
     },
-    loginSideField: {
+     loginSideField: {
         marginBottom: 18,
       },
       registerField: {
