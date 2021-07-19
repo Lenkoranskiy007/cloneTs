@@ -9,7 +9,7 @@ import { useStylesSignIn } from '../pages/Signin';
 
 
 interface ModalBlockProps {
-  title: string;
+  title?: string;
   children: React.ReactNode;
   classes?: ReturnType<typeof useStylesSignIn>;
   visible?: boolean;

@@ -37,7 +37,13 @@ export const theme = createMuiTheme({
       disabledBackground: 'rgb(153 216 255)',
       disabled: '#fff',
     },
+    //@ts-ignore
+    text: {
+      primary: '#14171a'
+    }
   },
+
+
   //@ts-ignore
   shadows: [],
   overrides: {

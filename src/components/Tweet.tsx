@@ -8,15 +8,16 @@ import RepeatIcon from '@material-ui/icons/Repeat';
 import LikeIcon from '@material-ui/icons/FavoriteBorder';
 import ShareIcon from '@material-ui/icons/ReplyOutlined';
 import classNames from 'classnames';
-import {useHomeStyles } from '../pages/Home';
+import {useHomeStyles } from '../pages/Home/theme';
 import IconButton from '@material-ui/core/IconButton/IconButton';
 
 
 type TweetType = {
     classes: ReturnType <typeof useHomeStyles>
+    text: string
     user: {
-        userName: string,
-        fullName: string,
+        username: string,
+        fullname: string,
         avatarUrl: string
     }
 }
@@ -27,7 +28,7 @@ export const  Tweet = (props:TweetType ) => {
         <div>
    <Paper className={props.classes.tweetsWrapper}>
               <Paper className={props.classes.tweetsHeader}>
-              <Typography  variant='h6'>Главная</Typography>
+
               </Paper>
               <Paper className={classNames( props.classes.tweet, props.classes.tweetsHeader)}>
                 <Grid container spacing={3}>
@@ -36,7 +37,7 @@ export const  Tweet = (props:TweetType ) => {
                     </Grid>
                     <Grid item xs={11}>
                     <Typography >
-    <b>{props.user.userName} </b> <span className={props.classes.tweetUserName}> @{props.user.fullName}</span>&nbsp;
+    <b>{props.user.username} </b> <span className={props.classes.tweetUserName}> @{props.user.fullname}</span>&nbsp;
     <span className={props.classes.tweetUserName}>.</span>&nbsp;
     <span className={props.classes.tweetUserName}>1 ч </span>&nbsp;
                      </Typography>
