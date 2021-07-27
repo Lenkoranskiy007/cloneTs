@@ -1,11 +1,13 @@
-enum LoadingState  {
+export enum LoadingState  {
     LOADED ='LOADED',
+    LOADING = 'LOADING',
     ERROR = 'ERROR',
     NEVER = 'NEVER'
 }
 
 
-export type TweetType = {
+export interface Tweet {
+    _id: string,
     text: string
     user: {
         username: string
@@ -14,7 +16,7 @@ export type TweetType = {
     }
 }
 
-export type TweetStateType = {
-    item: TweetType[]
+export interface TweetStateType  {
+    items: Tweet[]
     loadingState: LoadingState
 }

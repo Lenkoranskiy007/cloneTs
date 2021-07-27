@@ -7,6 +7,8 @@ import { ThemeProvider } from '@material-ui/core';
 import {theme} from './theme'
 import { BrowserRouter } from 'react-router-dom';
 import CssBaseline from '@material-ui/core/CssBaseline';
+import { Provider } from 'react-redux';
+import { store } from './store/store';
 
 
 
@@ -17,8 +19,9 @@ ReactDOM.render(
     <ThemeProvider theme={theme}>
       <BrowserRouter>
       <CssBaseline />
-
-      <App />
+   <Provider store={store}>
+   <App />
+   </Provider>
       </BrowserRouter>
   
     </ThemeProvider>

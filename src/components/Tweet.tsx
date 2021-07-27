@@ -10,6 +10,7 @@ import ShareIcon from '@material-ui/icons/ReplyOutlined';
 import classNames from 'classnames';
 import {useHomeStyles } from '../pages/Home/theme';
 import IconButton from '@material-ui/core/IconButton/IconButton';
+import axios from 'axios';
 
 
 type TweetType = {
@@ -23,7 +24,14 @@ type TweetType = {
 }
 
 
+
+
 export const  Tweet = (props:TweetType ) => {
+
+   React.useEffect(() => {
+     axios.get('https://trycode.pw/c/VJRFS.json').then(({ data }) => console.log(data))
+   }, [])
+
     return (
         <div>
    <Paper className={props.classes.tweetsWrapper}>
@@ -37,16 +45,12 @@ export const  Tweet = (props:TweetType ) => {
                     </Grid>
                     <Grid item xs={11}>
                     <Typography >
-    <b>{props.user.username} </b> <span className={props.classes.tweetUserName}> @{props.user.fullname}</span>&nbsp;
+    <b>{props.user.username}</b> <span className={props.classes.tweetUserName}> @{props.user.fullname}</span>&nbsp;
     <span className={props.classes.tweetUserName}>.</span>&nbsp;
     <span className={props.classes.tweetUserName}>1 ч </span>&nbsp;
                      </Typography>
                      <Typography variant="body1" gutterBottom>
-                         Balalalallalalallal
-                         Balalalallalalallal
-                         Balalalallalalallal
-                         Balalalallalalallal
-                         Balalalallalalallal
+                        {props.text}
                      </Typography>
                      <div className={props.classes.tweetFooter}>
                          <div style={{fontSize: 20}}>
