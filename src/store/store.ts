@@ -3,6 +3,10 @@ import { tweetsReducer } from "./ducks/reducer";
 import createSagaMiddleware from 'redux-saga'
 import rootSaga from './saga'
 import { TweetStateType } from "./ducks/tweets/contracts/state";
+import { TagState } from "./tags/contracts/state";
+import { tagsReducer } from "./tags/reducer";
+import { TweetState } from "./tweet/contracts/state";
+import { tweetReducer } from "./tweet/reducer";
 
 
 
@@ -13,12 +17,17 @@ import { TweetStateType } from "./ducks/tweets/contracts/state";
 
 export interface AppStateType  {
     tweets: TweetStateType
+    tags: TagState
+    tweet: TweetState
 }
 
 
 
 const rootReducers = combineReducers({
-    tweets: tweetsReducer
+    tweets: tweetsReducer,
+    tags: tagsReducer,
+    tweet: tweetReducer
+    
 })
 
 

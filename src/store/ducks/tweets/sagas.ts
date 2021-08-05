@@ -20,7 +20,6 @@ export function* fetchTweetsRequest(): any {
 }
 
 export function* tweetsSaga() {
-  console.log(1234);
   
     yield takeEvery(TweetsActionsType.FETCH_TWEETS,fetchTweetsRequest  )
   }

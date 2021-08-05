@@ -8,6 +8,7 @@ import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 import ImageOutlinedIcon from '@material-ui/icons/ImageOutlined';
 import EmojiIcon from '@material-ui/icons/SentimentSatisfiedOutlined';
 import {useHomeStyles} from '../pages/Home/theme'
+import { Route } from 'react-router-dom';
 
 type  AddTweetFormPropsType = {
   classes: ReturnType<typeof useHomeStyles>;
@@ -37,6 +38,7 @@ export const AddTweetForm: React.FC<AddTweetFormPropsType> = ({
   return (
     <div>
       <div className={classes.addFormBody}>
+      
         <Avatar
           className={classes.tweetAvatar}
           alt={`Аватарка пользователя UserAvatar`}
@@ -89,7 +91,10 @@ export const AddTweetForm: React.FC<AddTweetFormPropsType> = ({
             Твитнуть
           </Button>
         </div>
+       
       </div>
+      
     </div>
+  
   );
 };

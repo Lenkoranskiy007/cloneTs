@@ -10,8 +10,8 @@ export interface Tweet {
     _id: string,
     text: string
     user: {
-        username: string
-        fullname: string
+        userName: string
+        fullName: string
         avatarUrl: string
     }
 }

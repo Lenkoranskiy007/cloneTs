@@ -13,6 +13,7 @@ import {useHomeStyles} from '../pages/Home/theme'
 import CreateIcon from '@material-ui/icons/Create';
 import { ModalBlock } from './ModalBlock';
 import { AddTweetForm } from './AddTweetForm';
+import { Link } from 'react-router-dom';
 
 
 type SideMenuType = {
@@ -40,12 +41,13 @@ export const SideMenu = (props: SideMenuType) => {
        <Grid container justify='center'>
             <ul className={props.classes.sideMenuList}>
                
-                <li className={props.classes.sideMenuListItem}>
-                <div>
-                <IconButton className={props.classes.logo} aria-label="delete"  color="primary" size="small">
+                <li className={props.classes.sideMenuListItem}> 
+                <Link to={'/home'}>
+                    <IconButton className={props.classes.logo} aria-label="delete"  color="primary" size="small">
                 <TwitterIcon className={props.classes.logoIcon}   color='primary'/>
                 </IconButton>
-                </div>
+                    </Link>
+             
                 </li>
                <li className={props.classes.sideMenuListItem}>
                <div>

@@ -1,0 +1,123 @@
+{
+    "tweets": [
+        {
+          "_id": "60ffb1e97c5ed01ee5610cbc",
+          "text": "Рассказывайте где  отдыхали в России этим летом ",
+          "user": {
+            "fullName": "Архитектурные излишества ",
+            "userName": "arkhlikbez",
+            "avatarUrl": "https://lh3.googleusercontent.com/proxy/y5V7TLCDOGT_QwAIwhMkUUN4DuGfSGGDI1a4CccV1kTr5JHLkghOBcCFkPL0q5UIkj4tymrwN8oxJ_i8_2j2iX-JTwTyiW39RJx8ZBRoBCnIb2cxGDnliyzvTymCnUPI6hq83i2Ojcp-jNTmX-c"
+          }
+        },
+        {
+          "_id": "60ffb1e9501313e7c0e43fbe",
+          "text": "Dolor Lorem mollit reprehenderit fugiat pariatur anim tempor commodo laboris Lorem voluptate.",
+          "user": {
+            "fullName": "Imogene Hoffman",
+            "userName": "austin",
+            "avatarUrl": "https://source.unsplash.com/random/100x100"
+          }
+        },
+        {
+          "_id": "60ffb1e974b96b6a34e56d89",
+          "text": "Non et aliquip amet labore laborum laborum id et culpa sit sunt elit in mollit.",
+          "user": {
+            "fullName": "Tyler Leon",
+            "userName": "lela",
+            "avatarUrl": "https://source.unsplash.com/random/100x100"
+          }
+        },
+        {
+          "_id": "60ffb1e94a4a7b5520382162",
+          "text": "Duis voluptate velit adipisicing ex sint mollit exercitation velit qui sit tempor reprehenderit.",
+          "user": {
+            "fullName": "Sullivan Mercado",
+            "userName": "mckinney",
+            "avatarUrl": "https://source.unsplash.com/random/100x100"
+          }
+        },
+        {
+          "_id": "60ffb1e9faa2bab74bc2af2a",
+          "text": "Nostrud sunt tempor sint qui ex quis fugiat reprehenderit ex cupidatat et laborum.",
+          "user": {
+            "fullName": "Gould Stafford",
+            "userName": "delores",
+            "avatarUrl": "https://source.unsplash.com/random/100x100"
+          }
+        },
+        {
+          "_id": "60ffb1e94a4a7b5520382162",
+          "text": "Duis voluptate velit adipisicing ex sint mollit exercitation velit qui sit tempor reprehenderit.",
+          "user": {
+            "fullName": "Sullivan Mercado",
+            "userName": "mckinney",
+            "avatarUrl": "https://source.unsplash.com/random/100x100"
+          }
+        },
+        {
+          "_id": "60ffb1e94a4a7b5520382162",
+          "text": "Duis voluptate velit adipisicing ex sint mollit exercitation velit qui sit tempor reprehenderit.",
+          "user": {
+            "fullName": "Sullivan Mercado",
+            "userName": "mckinney",
+            "avatarUrl": "https://source.unsplash.com/random/100x100"
+          }
+        },
+        {
+          "_id": "60ffb1e94a4a7b5520382162",
+          "text": "Duis voluptate velit adipisicing ex sint mollit exercitation velit qui sit tempor reprehenderit.",
+          "user": {
+            "fullName": "Sullivan Mercado",
+            "userName": "mckinney",
+            "avatarUrl": "https://source.unsplash.com/random/100x100"
+          }
+        },
+        {
+          "_id": "60ffb1e94a4a7b5520382162",
+          "text": "Duis voluptate velit adipisicing ex sint mollit exercitation velit qui sit tempor reprehenderit.",
+          "user": {
+            "fullName": "Sullivan Mercado",
+            "userName": "mckinney",
+            "avatarUrl": "https://source.unsplash.com/random/100x100"
+          }
+        },
+        {
+          "_id": "60ffb1e94a4a7b5520382162",
+          "text": "Duis voluptate velit adipisicing ex sint mollit exercitation velit qui sit tempor reprehenderit.",
+          "user": {
+            "fullName": "Sullivan Mercado",
+            "userName": "mckinney",
+            "avatarUrl": "https://source.unsplash.com/random/100x100"
+          }
+        }
+      ],
+     "tags": [
+         {"_id": "5f625ff106bc4fd2a1e7bf710","name": "#HandOffRussianHistory", "count": 53553}, 
+         {"_id": "5f625ff206bc4fda21e7bf710", "name": "#Навального", "count": 2243},
+         { "_id": "5f625ff406bc45f2da1e7bf710","name": "#Алиев", "count": 42442},
+         { "_id": "5f625f1f606b1c4fda1e7bf710","name": "#Беларусь", "count": 6663}],
+     "users": [
+        {
+            "fullName": "Tillman Trevino",
+            "userName": "terry",
+            "avatarUrl": "https://source.unsplash.com/random/100x100"
+          },
+          {
+            "fullName": "Imogene Hoffman",
+            "userName": "austin",
+            "avatarUrl": "https://source.unsplash.com/random/100x100"
+          },
+          {
+            "fullName": "Tyler Leon",
+            "userName": "lela",
+            "avatarUrl": "https://source.unsplash.com/random/100x100"
+        }
+     ] ,
+
+      "user": {
+        "_id": "60ffb1e94a4a7b5520382162",
+        "fullName": "Farid Gasymzade",
+        "userName": "farid__42",
+        "avatarUrl": "https://images.unsplash.com/photo-1609081376241-49a678b55afb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=540&q=80"
+      }
+}
