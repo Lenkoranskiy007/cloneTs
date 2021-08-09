@@ -19,8 +19,8 @@ type TweetType = {
     classes: ReturnType <typeof useHomeStyles>
     text: string
     user: {
-        userName: string,
-        fullName: string,
+        username: string,
+        fullname: string,
         avatarUrl: string
     }
 }
@@ -58,8 +58,8 @@ type TweetFormType = {
     classes: ReturnType <typeof useHomeStyles>
     text: string
     user: {
-        userName: string,
-        fullName: string,
+        username: string,
+        fullname: string,
         avatarUrl: string
     }
 }
@@ -76,7 +76,7 @@ const TweetForm = (props: TweetFormType) => {
     </Grid>
     <Grid item xs={11}>
     <Typography >
-<b>{props.user.userName}</b> <span className={props.classes.tweetUserName}> @{props.user.fullName}</span>&nbsp;
+<b>{props.user.username}</b> <span className={props.classes.tweetUserName}> @{props.user.fullname}</span>&nbsp;
 <span className={props.classes.tweetUserName}>.</span>&nbsp;
 <span className={props.classes.tweetUserName}>1 ч </span>&nbsp;
      </Typography>
